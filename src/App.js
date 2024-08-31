@@ -1,9 +1,13 @@
+import { BrowserRouter } from "react-router-dom";
+import Inicio from "./paginas/Inicio";
+import SobreMim from "./paginas/SobreMim";
+
 function App() {
   return (
-    <div className="App">
+    <BrowserRouter>
       
-    </div>
-  );
+    </BrowserRouter>
+  )
 }
 
 export default App;
